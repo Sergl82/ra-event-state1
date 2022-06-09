@@ -1,0 +1,25 @@
+.projectlist {
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+}
+
+.projectlist-item {
+   box-sizing: border-box;
+   width: 300px;
+   padding-bottom: 15px;
+}
+
+@media (min-width: 610px) and (max-width: 1024px) {
+   .projectlist {
+      width: 620px;
+      column-count: 2;
+   }
+}
+
+@media (min-width: 1025px) {
+   .projectlist {
+      width: 940px;
+      column-count: 3;
+   }
+}
